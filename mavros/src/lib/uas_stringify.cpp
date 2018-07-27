@@ -109,6 +109,7 @@ static const cmode_map ardusub_cmode_map{{
 	{ 5, "VELHOLD" },
 	{ 6, "RTL" },		// n/a
 	{ 7, "CIRCLE" },	// n/a
+	{ 8, "THRUSTER_DIRECT" },
 	{ 9, "SURFACE" },
 	{ 10, "OF_LOITER" },	// deprecated
 	{ 11, "DRIFT" },	// n/a
@@ -129,6 +130,7 @@ static const cmode_map px4_cmode_map{{
 	{ px4::define_mode(px4::custom_mode::MAIN_MODE_POSCTL),           "POSCTL" },
 	{ px4::define_mode(px4::custom_mode::MAIN_MODE_OFFBOARD),         "OFFBOARD" },
 	{ px4::define_mode(px4::custom_mode::MAIN_MODE_STABILIZED),       "STABILIZED" },
+	{ px4::define_mode(px4::custom_mode::MAIN_MODE_THRUSTER_DIRECT),  "THRUSTER_DIRECT" },
 	{ px4::define_mode(px4::custom_mode::MAIN_MODE_RATTITUDE),        "RATTITUDE" },
 	{ px4::define_mode_auto(px4::custom_mode::SUB_MODE_AUTO_MISSION), "AUTO.MISSION" },
 	{ px4::define_mode_auto(px4::custom_mode::SUB_MODE_AUTO_LOITER),  "AUTO.LOITER" },
